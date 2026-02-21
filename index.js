@@ -82,7 +82,9 @@ function createFreelancerTable(freelancer) {
 
   return tr;
 }
-console.log(createFreelancerTable(freelancer));
+// console.log(createFreelancerTable(freelancer));
+const newPerson = freelancer(); // Generate a person first
+console.log(createFreelancerTable(newPerson)); // Pass that person to the table maker
 
 //
 //
